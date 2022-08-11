@@ -1,0 +1,21 @@
+import React from 'react'
+
+const Read = () => {
+  return (
+    <>
+<div className="blogPost">
+ <h1 className="title">Tech in 2022</h1>
+ <h4 className="body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus quas impedit quibusdam ipsam a labore tempore ullam doloremque? Magni incidunt qui consequatur quae molestias rem, corrupti deleniti illo optio velit placeat perferendis vero asperiores et, voluptate ad omnis sed doloribus molestiae laudantium possimus atque cumque suscipit! Asperiores porro natus necessitatibus eius. At fugiat ducimus culpa saepe necessitatibus quibusdam, eos quis doloremque sint reiciendis repellat unde iure numquam nemo et ut ipsa debitis. Voluptatem omnis tempore vitae dolore velit ipsam quo harum a impedit voluptatum laboriosam debitis quas error sapiente iusto eligendi itaque, reiciendis soluta, provident qui quam! Dolorem soluta commodi illo vel. Earum consequatur quisquam fuga voluptatem sapiente harum laudantium, nemo obcaecati! Ipsum, dolorum veritatis molestias nisi ipsa aliquam minima omnis ullam, natus aperiam enim facilis illum quod! Ab corporis suscipit iusto incidunt ipsum maiores omnis, nisi esse labore inventore error corrupti. Aut iure ab aperiam beatae quasi possimus nobis? Tempore ducimus exercitationem laborum velit! Magni quisquam explicabo inventore exercitationem maiores necessitatibus ducimus fugiat corrupti nesciunt nulla saepe, vero, velit facere dolorem quia quidem illo excepturi fuga qui et ipsa repudiandae. Officiis, dignissimos et sit natus vitae earum quam tenetur? Animi officiis ea molestias quas eius sed consequatur explicabo repellat nam, quisquam quam, quod ipsam aut nulla? Eveniet quae aliquid fugiat possimus repudiandae exercitationem nam porro voluptates natus expedita perspiciatis facilis mollitia neque suscipit, vitae ullam illum accusantium nesciunt voluptas consequuntur cum ipsum optio commodi. Iusto officiis ut dolores nisi rerum molestias voluptatum eum doloribus, et fuga officia laborum non sapiente provident veniam aperiam mollitia, qui itaque doloremque illo totam pariatur fugiat repellendus placeat. Temporibus vel voluptates ipsam consectetur, adipisci dicta eveniet minima laboriosam, deserunt iure tempore, beatae dolor odio itaque facere tempora dolores? In vero nisi deserunt magnam aliquid! Dolorum, vitae. Et excepturi unde a vel laudantium iste. Perspiciatis optio similique dolor rerum in soluta eos. Provident suscipit iure amet aperiam, et quos nisi quod soluta laudantium neque nulla corporis dolor dolorem doloribus pariatur eum impedit repellendus libero dolores sequi blanditiis esse reiciendis minus! Provident ea molestiae corporis unde odit. Ipsa nihil error distinctio provident alias, nisi voluptas aliquid nostrum eveniet voluptatem placeat, nesciunt, quis dolor est laudantium dicta facilis minima voluptates qui tempora perferendis tempore! Voluptates consequuntur quidem aliquam, quasi a soluta enim ducimus voluptatibus eligendi odio fugit vero beatae quas tempora. Accusamus expedita minima temporibus? Adipisci maxime provident dignissimos consequatur eaque molestiae eveniet incidunt eius! Recusandae adipisci eum fugiat, qui necessitatibus veniam corrupti quaerat molestiae rem, praesentium aliquam aspernatur nisi, debitis dolorum sequi molestias. Nulla et at, consequatur vel sint dicta debitis facere assumenda, laboriosam, saepe dolorem. Id aut, in dolorem quis officiis a quas? Voluptates, doloremque est? Asperiores praesentium, explicabo accusamus labore a in aliquid alias qui nobis veniam, odit, unde id dolores ut rem consectetur? Natus debitis quibusdam nihil sed praesentium aut qui earum dignissimos molestias! Soluta facere animi eum reprehenderit quo laborum tempora consequuntur odio porro error voluptatem sequi sunt optio, perferendis tempore in praesentium vitae. Non unde nesciunt exercitationem vero quam, accusantium suscipit.</h4>
+  <div className="author">
+    <h3>Omar Apollo</h3>
+    <h6>Senior Engineer at Rewired.com</h6>
+  </div>
+</div>
+<button>
+    <span class="delete"><i className="ri-delete-bin-2-fill"></i></span>
+  </button>
+    </>
+  )
+}
+
+export default Read
