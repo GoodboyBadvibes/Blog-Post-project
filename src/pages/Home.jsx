@@ -21,7 +21,8 @@ const Home = () => {
 console.log(blogs)
   return (
     <>
-    {
+    {  
+    
       blogs && blogs.map((blog)=> (
     //     <div>
     //       <div className="posts">
@@ -42,8 +43,13 @@ console.log(blogs)
     // </div>
     // </div>
     //     </div>
-    <Post blog = {blog}/>
+    <div className="posts">
+      <Post blog = {blog}/>
+    </div>
+    
+    
       ))
+      
     }
       
      

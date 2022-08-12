@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 const Post = ({blog}) => {
   return (
     <>
-     <div className="posts">
+     
      <Link to="/read">
     <div className="post">
       <div className="head">
@@ -97,7 +97,7 @@ const Post = ({blog}) => {
     </div>
     </Link> */}
     
-  </div>
+
     </>
   )
 }
