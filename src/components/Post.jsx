@@ -5,7 +5,7 @@ const Post = ({blog}) => {
   return (
     <>
      
-     <Link to="/read">
+     <Link  to={`/read/${blog._id}`}>
     <div className="post">
       <div className="head">
         <div>

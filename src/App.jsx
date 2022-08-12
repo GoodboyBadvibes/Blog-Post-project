@@ -23,9 +23,9 @@ function App() {
       <Navbar/>
       <Routes>
         <Route path='/' element={<Home/>}/>
-        <Route path='Create' element= {<Create/>}></Route>
-        <Route path='Read' element= {<Read/>}></Route>
-        <Route path='Unavailable' element= {<Unavailable/>}></Route>
+        <Route path='/Create' element= {<Create/>}></Route>
+        <Route path='/read/:id' element= {<Read/>}></Route>
+        <Route path='/Unavailable' element= {<Unavailable/>}></Route>
       </Routes>
       <Footer/>
       </BrowserRouter>

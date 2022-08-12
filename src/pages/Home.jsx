@@ -11,7 +11,7 @@ const Home = () => {
   },[])
 
   async function getBlogPosts(){
-    const response = await fetch('http://172.16.5.79:5000/')
+    const response = await fetch('http://192.168.99.244:5000/')
     const data = await response.json()
     
     setBlogs(data)
@@ -20,9 +20,9 @@ const Home = () => {
 
 console.log(blogs)
   return (
-    <>
+  
+    <div className="posts">
     {  
-    
       blogs && blogs.map((blog)=> (
     //     <div>
     //       <div className="posts">
@@ -43,17 +43,17 @@ console.log(blogs)
     // </div>
     // </div>
     //     </div>
-    <div className="posts">
+    
       <Post blog = {blog}/>
-    </div>
+    
     
     
       ))
-      
     }
+    </div>
       
      
-    </>
+    
   )
 }
 
